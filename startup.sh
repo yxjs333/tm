@@ -107,7 +107,7 @@ docker run -d --restart=always --name tm "$TM_IMAGE" start accept --token "tEztK
 # 2. Repocket
 cleanup_container "repocket" "repocket/repocket"
 echo "运行 Repocket 容器..."
-docker run -d --restart=always -e RP_EMAIL="wugulan78@gmail.com" -e RP_API_KEY="6e518501-5fb2-4fa0-a42c-43436a63eb49" --name repocket repocket/repocket
+docker run -d --restart=always -e RP_EMAIL="kx831201@hotmail.com" -e RP_API_KEY="3abecc50-d6fd-4c72-889d-2c0d4f118ff9" --name repocket repocket/repocket
 
 # 3. EarnFM Client
 cleanup_container "earnfm-client" "earnfm/earnfm-client:latest"
